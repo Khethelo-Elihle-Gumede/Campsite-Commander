@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0F172A"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtDetails"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:text="Back to Base"
+        android:textColor="@color/white"
+        android:backgroundTint="#EF4444"
+        android:layout_marginBottom="20dp"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
